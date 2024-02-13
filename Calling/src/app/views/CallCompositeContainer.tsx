@@ -39,6 +39,7 @@ export const CallCompositeContainer = (props: CallCompositeContainerProps): JSX.
       rtl={currentRtl}
       callInvitationUrl={callInvitationUrl}
       formFactor={isMobileSession ? 'mobile' : 'desktop'}
+      localVideoViewOption={{ aspectRatio: 1 }}
     />
   );
 };
